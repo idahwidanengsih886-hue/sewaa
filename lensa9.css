@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: skyblue;
+  color: white;
+  padding: 15px 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: khaki;
+}
+  
+body {
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.slider {
+  width: 100%;
+  height: 220px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.price {
+  text-align: center;
+}
+
+.price h2 {
+  margin: 10px 0;
+}
+
+.price p {
+  font-size: 12px;
+  color: gray;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.desc {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.footer {
+  background: #f5f5f5;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.footer h3 {
+  margin-top: 20px;
+}
+
+.social img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.subscribe {
+  display: flex;
+  margin-top: 5px;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.subscribe button {
+  padding: 8px 15px;
+  background: gray;
+  color: white;
+  border: none;
+}
+
+.wa-btn {
+  display: block;
+  background: #1ebe57;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+
+
